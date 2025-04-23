@@ -146,10 +146,14 @@ public class gerenciarBanco {
                 else System.out.println("valor invalido"); 
                 
             }
+              if(opcao==0){
+                   System.out.println("muito obrigado por sua preferência até mais !");
+              }
             //caso inserir número invalido mostro na tela valor invalido
                 //usando uma operação ternaria
             else System.out.println("Valor invalido");
         }
+      
         
         //encerrando o nosso objeto input 
         input.close();
